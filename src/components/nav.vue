@@ -1,6 +1,7 @@
 <template>
-  <div class="master-nav">
-    <h2>SERAJ KOTAGAMA</h2>
+  <div>
+    <h1 class="text-3xl font-bold mb-8">SERAJ KOTAGAMA</h1>
+    <h1 class="text-3xl font-bold mb-8">The Vue Tailwind Template</h1>
   </div>
 </template>
 
@@ -10,11 +11,4 @@ export default {
 }
 </script>
 
-<style>
-.master-nav {
-  font-style: italic;
-  font-weight: bold;
-  border: solid;
-  padding: 1%;
-}
-</style>
+<style></style>
