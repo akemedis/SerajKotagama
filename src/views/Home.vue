@@ -9,7 +9,7 @@ export default {
 </script>
 <template>
   <div>
+    <navigation />
     <h2>Homes</h2>
-    <nav />
   </div>
 </template>
