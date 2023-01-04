@@ -37,7 +37,7 @@
                   <a
                     href="#"
                     class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >Biotechnology</a
+                    >Biotech Tools</a
                   >
                 </div>
               </div>
@@ -107,9 +107,10 @@
         <div class="md:hidden" id="mobile-menu">
           <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <h2 class="text-white block px-3 py-2">Seraj Kotagama</h2>
             <a
               href="#"
-              class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               aria-current="page"
               >Thoughts</a
             >
@@ -122,8 +123,13 @@
 
             <a
               href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >Life Collage</a
+              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >Visual Diary</a
+            >
+            <a
+              href="#"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >Biotech Tools</a
             >
           </div>
         </div>
