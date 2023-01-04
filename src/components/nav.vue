@@ -129,8 +129,9 @@
             <a
               href="#"
               class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >Biotech Tools</a
+              >bioteck tools</a
             >
+            <nav-button title="dsdsd" />
           </div>
         </div>
       </nav>
@@ -139,8 +140,12 @@
 </template>
 
 <script>
+import nav-button from './nav-button.vue'
 export default {
   name: 'navigation',
+  components: {
+    navbutton: nav-button,
+  }
 }
 </script>
 
