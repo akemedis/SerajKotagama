@@ -14,31 +14,11 @@
               </div>
               <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
-                  <h2 class="text-white">Seraj Kotagama</h2>
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    aria-current="page"
-                    >Thoughts</a
-                  >
-
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >Essays</a
-                  >
-
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >Visual Diary</a
-                  >
-
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >Biotech Tools</a
-                  >
+                  <h2 class="text-white font-sans ubuntu">Seraj Kotagama</h2>
+                  <navbutton title="Thoughts" />
+                  <navbutton title="Essays" />
+                  <navbutton title="Visual Diary" />
+                  <navbutton title="Biotechnology" />
                 </div>
               </div>
             </div>
@@ -108,30 +88,10 @@
           <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <h2 class="text-white block px-3 py-2">Seraj Kotagama</h2>
-            <a
-              href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              aria-current="page"
-              >Thoughts</a
-            >
-
-            <a
-              href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >Essays</a
-            >
-
-            <a
-              href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >Visual Diary</a
-            >
-            <a
-              href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >bioteck tools</a
-            >
-            <nav-button title="dsdsd" />
+            <navbutton title="Thoughts" />
+            <navbutton title="Essays" />
+            <navbutton title="Visual Diary" />
+            <navbutton title="Biotechnology" />
           </div>
         </div>
       </nav>
@@ -140,12 +100,12 @@
 </template>
 
 <script>
-import nav-button from './nav-button.vue'
+import navButton from './navButton.vue'
 export default {
   name: 'navigation',
   components: {
-    navbutton: nav-button,
-  }
+    navbutton: navButton,
+  },
 }
 </script>
 
