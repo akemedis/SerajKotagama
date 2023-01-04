@@ -1,9 +1,9 @@
 <script>
-import nav from '../components/nav.vue'
+import navigation from '../components/nav.vue'
 export default {
   name: 'Home',
   components: {
-    nav,
+    navigation,
   },
 }
 </script>

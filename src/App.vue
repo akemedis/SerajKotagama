@@ -4,6 +4,7 @@
   </main>
 </template>
 <script>
+import nav from './components/nav.vue'
 export default {
   name: 'App',
   components: {

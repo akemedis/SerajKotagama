@@ -8,6 +8,6 @@
 import { ref, defineComponent } from 'vue'
 
 export default {
-  name: 'nav',
+  name: 'navigation',
 }
 </script>
