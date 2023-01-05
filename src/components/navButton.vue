@@ -12,8 +12,6 @@
       font-medium
       move
     "
-    @mouseover="startPulse"
-    @mouseleave="stopPulse"
     >{{ title }}</a
   >
 </template>
@@ -25,34 +23,6 @@ export default {
   props: {
     title: String,
     link: String,
-  },
-  data() {
-    return {
-      pulseAnimation: null,
-    }
-  },
-  mounted() {
-    this.pulseAnimation = anime({
-      targets: this.$el,
-      color: [
-        { value: '#00FF00', duration: 500 },
-        { value: '#009900', duration: 500 },
-      ],
-      easing: 'linear',
-      loop: true,
-      direction: 'alternate',
-    })
-  },
-  methods: {
-    startPulse() {
-      this.pulseAnimation.play()
-    },
-    stopPulse() {
-      this.pulseAnimation.pause()
-    },
-  },
-  beforeDestroy() {
-    this.pulseAnimation.pause()
   },
 }
 </script>
