@@ -1,7 +1,12 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        technica: "'Ubuntu', sans",
+        signature: "'Akronim', serif",
+      },
+    },
     theme: {
       screens: {
         sm: '480px',
