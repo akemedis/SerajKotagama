@@ -5,6 +5,7 @@ module.exports = {
       fontFamily: {
         technica: "'Ubuntu', sans",
         signature: "'Akronim', serif",
+        anu: "'anurati', sans",
       },
     },
     theme: {
