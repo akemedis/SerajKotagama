@@ -3,7 +3,7 @@
     href="{{link}}"
     class="
       text-gray-300
-      hover:underline hover:decoration-4 hover:decoration-green-500 hover:text-white
+      hover:underline hover:underline-offset-3 hover:decoration-4 hover:decoration-green-500 hover:text-white
       block
       px-3
       py-2
